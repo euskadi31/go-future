@@ -1,16 +1,14 @@
-Go Future [![Last release](https://img.shields.io/github/release/euskadi31/go-future.svg)](https://github.com/euskadi31/go-future/releases/latest) [![Documentation](https://godoc.org/github.com/euskadi31/go-future?status.svg)](https://godoc.org/github.com/euskadi31/go-future)
-================
+# Go Future [![Last release](https://img.shields.io/github/release/euskadi31/go-future.svg)](https://github.com/euskadi31/go-future/releases/latest) [![Documentation](https://godoc.org/github.com/euskadi31/go-future?status.svg)](https://godoc.org/github.com/euskadi31/go-future)
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/euskadi31/go-future)](https://goreportcard.com/report/github.com/euskadi31/go-future)
 
-| Branch  | Status | Coverage |
-|---------|--------|----------|
-| master  | [![Build Status](https://img.shields.io/travis/euskadi31/go-future/master.svg)](https://travis-ci.org/euskadi31/go-future) | [![Coveralls](https://img.shields.io/coveralls/euskadi31/go-future/master.svg)](https://coveralls.io/github/euskadi31/go-future?branch=master) |
+| Branch | Status                                                                                                                                            | Coverage                                                                                                                                       |
+| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| master | [![Go](https://github.com/euskadi31/go-einfo/actions/workflows/go.yml/badge.svg)](https://github.com/euskadi31/go-einfo/actions/workflows/go.yml) | [![Coveralls](https://img.shields.io/coveralls/euskadi31/go-future/master.svg)](https://coveralls.io/github/euskadi31/go-future?branch=master) |
 
 go-future is an implementation of future in Go.
 
-Example
--------
+## Example
 
 ```go
 package main
@@ -46,7 +44,6 @@ func main() {
 
 With `Fill`
 
-
 ```go
 package main
 
@@ -78,7 +75,6 @@ func main() {
 }
 ```
 
-License
--------
+## License
 
 go-future is licensed under [the MIT license](LICENSE.md).
