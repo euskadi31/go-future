@@ -2,9 +2,9 @@
 
 [![Go Report Card](https://goreportcard.com/badge/github.com/euskadi31/go-future)](https://goreportcard.com/report/github.com/euskadi31/go-future)
 
-| Branch | Status                                                                                                                                            | Coverage                                                                                                                                       |
-| ------ | ------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
-| master | [![Go](https://github.com/euskadi31/go-einfo/actions/workflows/go.yml/badge.svg)](https://github.com/euskadi31/go-einfo/actions/workflows/go.yml) | [![Coveralls](https://img.shields.io/coveralls/euskadi31/go-future/master.svg)](https://coveralls.io/github/euskadi31/go-future?branch=master) |
+| Branch | Status                                                                                                                                              | Coverage                                                                                                                                       |
+| ------ | --------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------- |
+| master | [![Go](https://github.com/euskadi31/go-future/actions/workflows/go.yml/badge.svg)](https://github.com/euskadi31/go-future/actions/workflows/go.yml) | [![Coveralls](https://img.shields.io/coveralls/euskadi31/go-future/master.svg)](https://coveralls.io/github/euskadi31/go-future?branch=master) |
 
 go-future is an implementation of future in Go.
 
