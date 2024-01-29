@@ -9,21 +9,21 @@ import (
 	"reflect"
 )
 
-// Future struct
+// Future struct.
 type Future struct {
 	err    error
 	value  chan interface{}
 	closed bool
 }
 
-// New Future
+// New Future.
 func New() *Future {
 	return &Future{
 		value: make(chan interface{}, 1),
 	}
 }
 
-// Error set error to Future
+// Error set error to Future.
 func (f *Future) Error(err error) *Future {
 	f.err = err
 
@@ -32,7 +32,7 @@ func (f *Future) Error(err error) *Future {
 	return f
 }
 
-// Value set value to Future
+// Value set value to Future.
 func (f *Future) Value(value interface{}) *Future {
 	if !f.closed {
 		f.value <- value
@@ -41,7 +41,7 @@ func (f *Future) Value(value interface{}) *Future {
 	return f
 }
 
-// Get result or error
+// Get result or error.
 func (f *Future) Get() (interface{}, error) {
 	value := <-f.value
 
@@ -54,7 +54,7 @@ func (f *Future) Get() (interface{}, error) {
 	return value, nil
 }
 
-// Close future
+// Close future.
 func (f *Future) Close() {
 	if !f.closed {
 		f.closed = true
@@ -63,7 +63,7 @@ func (f *Future) Close() {
 	}
 }
 
-// Fill dest var
+// Fill dest var.
 func (f *Future) Fill(dest interface{}) error {
 	value := <-f.value
 

@@ -4,12 +4,12 @@
 
 package future
 
-// Error return future error
+// Error return future error.
 func Error(err error) *Future {
 	return New().Error(err)
 }
 
-// Value return future value
+// Value return future value.
 func Value(value interface{}) *Future {
 	return New().Value(value)
 }
